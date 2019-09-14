@@ -12,6 +12,7 @@
     background: #607d8b;
     border: none;
     color: azure;
+    box-shadow: 0 10px 10px -5px #00000070;
 }
 
 .textview{
@@ -21,6 +22,7 @@
     padding: 5px;
     border: none;
     color: #607d8b;
+    box-shadow: 0 10px 10px -5px #00000070;
 }
 
 .main{
