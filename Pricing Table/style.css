@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, #38ada9, #4a69bd);
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricing-table{
+    background: #f1f1f1;
+    flex: 1;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.pricing-header{
+    background: black;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.price span{
+    font-size: 30px;
+}
+
+.title{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: red;
+    transform: translate(-50%,50%);
+    width: 80%;
+    max-width: 360px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.pricing-list{
+    padding: 10px 20px;
+}
+
+.pricing-list li{
+    margin: 8px 0;
+    font-size: 14px;
+    color: #344;
+    text-align: center;
+}
+
+.border{
+    width: 80px;
+    height: 1px;
+    background: #ddd;
+    margin: auto;
+}
+
+@media screen and (max-width:7880px){
+    .pricing-table{
+        flex: 100%;
+    }
+}

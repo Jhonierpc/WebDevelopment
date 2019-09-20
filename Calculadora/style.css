@@ -29,3 +29,8 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.bg{
+    background: linear-gradient(to right, #47CAFC, #D550B6);
+    height: 100%;
+}
