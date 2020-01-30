@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha256-qvCL5q5O0hEpOm1CgOLQUuHzMusAZqDcAZL9ijqfOdI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/ab00d86059.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="row">
+                <div class="col liquid">
+                    <h4><i class="fas fa-drafting-compass"></i>  Ready Co.</h4>
+                        <div class="owl-carousel owl-theme">
+                            <img src="./assets/undraw_authentication_fsn5.svg" alt="" class="login_img">
+                            <img src="./assets/undraw_personal_data_29co.svg" alt="" class="login_img">
+                            <img src="./assets/undraw_fingerprint_swrc.svg" alt="" class="login_img">
+                        </div>
+
+                        <div class="follow">
+                            follow us<i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                items: 1
+            });
+        });
+    </script>
+</body>
+</html>
